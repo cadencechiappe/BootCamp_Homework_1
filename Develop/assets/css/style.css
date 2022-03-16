@@ -1,0 +1,235 @@
+/* general styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* sets background color of HTML elements within body */
+body {
+    background-color: #d9dcd6;
+}
+
+/* sets font, background color and padding of the header HTML element */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* 
+h1 elements will have an inline block display, left to right, 
+and a font size of 48px 
+*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* sets background color of header h1 elements with the class seo */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* 
+sets the class header so that it floats to the right of the page, has a 
+different font from the main header element as well as a different font. 
+Also the margin and padding are adjusted for a streamlined appearance
+*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* removes bullet points that are default styling on unordered lists */
+.header div ul li {
+    list-style-type: none;
+    
+}
+
+/* 
+sets list items to inline so that they appear left to right instead of 
+stacked 
+*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* sets color of article tag words */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* sets font of paragraph elements */
+p {
+    font-size: 16px;
+}
+
+/* sets the hero class sizing, margin, background image and its sizing */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* sets anything with the class float-left and its margin property */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* sets anything with the class float-right and its margin property */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* sets the content class to inline and its margin property */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* sets properties of the benefits class */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* sets benefit-lead class margin-bottom */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* sets benefit-brand class margin-bottom */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* sets benefit-cost class margin-bottom */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* sets benefit-lead class h3 margin-bottom and centered text */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* sets benefit-brand class h3 margin-bottom and centered text */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* sets benefit-cost class h3 margin-bottom and centered text */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* sets benefit-lead class img margin and image width */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* sets benefit-brand class img margin and image width */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* sets benefit-cost class img margin and image width */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
