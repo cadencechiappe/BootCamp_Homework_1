@@ -148,12 +148,14 @@ color settings
 .sos img {
     max-height: 200px;
 }
+
 /* sos class h2 margin and font settings */
 .sos h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* footer class padding, clear, font, and text align settings */
 .footer {
     padding: 30px;
     clear: both;
@@ -161,6 +163,7 @@ color settings
     text-align: center;
 }
 
+/* footer class h2 font size */
 .footer h2 {
     font-size: 20px;
 }
